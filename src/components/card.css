@@ -1,0 +1,80 @@
+.box {
+  background: #a5bbdd;
+  width: 30vw;
+  height: 60vh;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  min-width: 25rem;
+  min-height: 35rem;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.info {
+  bottom: 0;
+  margin-top: 100px;
+  text-transform: capitalize;
+}
+
+#weathercon {
+  color: white;
+}
+
+h3 {
+  margin-top: 25px;
+  text-align: left;
+}
+
+#weathercon .fas {
+  font-size: 6rem;
+  animation: fas-anime 3s linear infinite alternate;
+}
+
+@keyframes fas-anime {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.fa-street-view {
+  color: azure;
+  animation: rotates 2s linear infinite alternate;
+}
+
+@keyframes rotates {
+  from {
+    transform: translatex(-0.8rem);
+  }
+  to {
+    transform: translatex(0rem);
+  }
+}
+
+#date {
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.tempmin_max {
+  text-align: center;
+  margin-top: 0.3rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.inputFeild {
+  margin: 3px;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  padding: 5px;
+  text-transform: capitalize;
+}
